@@ -1,0 +1,33 @@
+/* client/src/components/Button.css */
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-sm {
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.btn-md {
+  padding: 6px 12px;
+  font-size: 1rem;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.btn-disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}

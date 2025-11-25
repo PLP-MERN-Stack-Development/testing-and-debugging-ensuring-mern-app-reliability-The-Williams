@@ -1,0 +1,14 @@
+{
+  "name": "mern-testing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand",
+    "server": "nodemon server/src/app.js",
+    "client": "npm --prefix client start"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "babel-jest": "^29.7.0"
+  }
+}
